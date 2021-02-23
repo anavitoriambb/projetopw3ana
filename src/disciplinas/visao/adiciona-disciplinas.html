@@ -1,0 +1,35 @@
+<div class="row justify-content-center">
+    <div class="col-10 col-md-5">
+        <form id="adiciona-disciplinas">
+            <h2 class="text-primary text-center">Cadastro de disciplinas</h2>
+            <div class="form-group">
+                <label>Nome da disciplina</label>
+                <input type="text" class="form-control" id="disciplina" name="disciplina" maxlength="100">
+            </div>
+
+            <div class="form-group">
+                <label>Nome do professor</label>
+                <input type="text" class="form-control" id="professor" name="professor" maxlength="150">
+            </div>
+
+            <div class="form-group">
+                <label>Nota</label>
+                <select name="nota" id="nota" class="form-control">
+                    <option value="">Selecione a nota...</option>
+                    <option value="MB">MB</option>
+                    <option value="B">B</option>
+                    <option value="R">R</option>
+                    <option value="I">I</option>
+                </select>
+            </div>
+
+            <div class="form-group row justify-content-end">
+                <div class="col-8 col-md-6">
+                    <button class="btn btn-success btn-block btn-save"><i class="mdi mdi-content-save"></i> Salvar alterações</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="src/disciplinas/controle/adiciona-disciplinas.js"></script>
